@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 
 const Article = ({ title, text, tags, image, alt }) => {
-    return <div className="p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg flex gap-2 flex-col items-center sm:hover:shadow-gray-500 sm:hover:dark:shadow-black sm:hover:shadow-lg ">
+    return <div className="alura-card">
         <h3 className="text-xl text-alura-200 dark:text-gray-200 font-bold">{title}</h3>
         <div className='w-full flex-row justify-end gap-2 pr-5 hidden sm:flex'>
             {

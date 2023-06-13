@@ -6,7 +6,7 @@ const Article = ({ title, text, tags, image, alt }) => {
         <h3 className="text-xl text-alura-200 dark:text-gray-200 font-bold">{title}</h3>
         <div className='w-full flex-row justify-end gap-2 pr-5 hidden sm:flex'>
             {
-                tags.map(tag => <span key={tag} className=' bg-alura-100 dark:bg-dark-100 px-4 py-1 rounded-full text-gray-200 font-bold text-xs uppercase hover:bg-alura-200 hover:scale-110'>{tag}</span>)
+                tags.map(tag => <span key={tag} className='alura-tag'>{tag}</span>)
             }
         </div>
         <div className="grid gap-1">
